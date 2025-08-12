@@ -324,7 +324,8 @@ def visualize_vsa_contributions(smiles, highlight_descriptors=None, save_path = 
             highlightAtomColors=highlight_colors
         )
         drawer.FinishDrawing()
-        display(SVG(drawer.GetDrawingText()))
+        svg_text = drawer.GetDrawingText()
+        display(SVG(svg_text))
         if save_path:
             with open(save_path, "w") as f:
                 f.write(svg_text)
