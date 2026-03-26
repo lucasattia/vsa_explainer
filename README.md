@@ -37,6 +37,11 @@ visualize_vsa_contributions(smiles, ["SMR_VSA7", "EState_VSA5"])
 - Draws an SVG of your molecule with atoms colored by their contribution to each selected VSA descriptor.
 - Displays a table reporting per-atom values, contributions, and percentage of the total.
 
+Grid view can enable the direct comparison of multiple molecules and multiple features simultaneously. 
+<p align="center">
+  <img src="assets/grid.png" alt="grid view" width="200"/>
+</p>
+
 
 ## 📌 Support
 
@@ -54,7 +59,6 @@ visualize_vsa_contributions(smiles, ["SMR_VSA7", "EState_VSA5"])
 
 - **VSA_EState**  
   MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper)
-
 
 
 ## 📌 Contributing
