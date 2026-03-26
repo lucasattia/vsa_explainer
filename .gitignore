@@ -40,5 +40,4 @@ env/
 
 # windows files
 *.pptx
-#ignore the manuscript folder for now
-manuscript/
+manuscript*
