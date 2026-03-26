@@ -39,7 +39,7 @@ visualize_vsa_contributions(smiles, ["SMR_VSA7", "EState_VSA5"])
 
 Grid view can enable the direct comparison of multiple molecules and multiple features simultaneously. 
 <p align="center">
-  <img src="assets/grid.png" alt="grid view" width="200"/>
+  <img src="assets/grid.PNG" alt="grid view" width="200"/>
 </p>
 
 
